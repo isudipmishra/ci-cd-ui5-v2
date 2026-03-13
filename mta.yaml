@@ -49,7 +49,7 @@ modules:
       target-path: resources/
 - name: cicdui5
   type: html5
-  path: cicdui5
+  path: .
   build-parameters:
     build-result: dist
     builder: custom

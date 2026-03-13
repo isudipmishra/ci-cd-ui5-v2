@@ -2,5 +2,7 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
+        <Label id="idLbl" text="Label C (normal)" labelFor="input-c" />
+        <Input id="input-c" />
     </Page>
 </mvc:View>
